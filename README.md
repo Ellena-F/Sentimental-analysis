@@ -27,3 +27,5 @@ Then for the next layer I implemented Convolutional Neural Networks, and it will
 process and classify it to different categories. It has a filters size of 32 and kernel size of 3. Then a max pooling layer 
 of 1D will be used as the third layer for the temporal data, with a pool size of 2. Then a time-series model- Long Short-Term 
 Memory will be applied for the following layer which is defined by hidden state dims and number of layers, which will be 100. Lastly, a fully connected layer- Dense, following the LSTM layer will be used to output the prediction. 
+
+This model has an accuracy of 0.4367.
