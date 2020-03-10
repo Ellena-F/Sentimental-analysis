@@ -16,6 +16,9 @@ functionality, where input gate allow incoming signal to alter memory cell or bl
 influence other neurons or prevent it and, the forget gate adjust memory cell’s self-recurrent connecting, which means 
 letting it memorise or forget previous session.
 
+
+![screenshot](/LSTM.png?raw=true "Optional Title")
+
 For this model, I implemented Keras neural network sequential model which is a model that has a linear stack of layers. For 
 the first layer, it needs to receive information about the input shape, therefore, I adopted an embedding layer as the 
 first layer with a layer size of 32, vocabulary size 122427 and an input length of 12. The reason of using an embedding layer 
